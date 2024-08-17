@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Forms, Lists, and Tables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    <main>
+      
+        <section id="registration">
+            <h2>User Registration</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation Menu</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </section>
+
+       
+        <section id="data-table">
+            <h2>Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Food</th>
+                        <th>Restaurant</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7:00 AM</td>
+                        <td>Breakfast</td>
+                        <td>Mcdonalds</td>
+                    </tr>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td>Lunch</td>
+                        <td>Taco Bell</td>
+                    </tr>
+                    <tr>
+                        <td>3:30 PM</td>
+                        <td>Snack</td>
+                        <td>DQ</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM</td>
+                        <td>Dinner</td>
+                        <td>Outback</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HawtPawket</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #10df44;
+}
+
+header, footer {
+    background-color: #000000;
+    color: #10df44;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #10df44;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff6347; 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+
+.gallery .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery .image-container img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery .image-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.cta-button {
+    background-color: #ff2600; 
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+ 
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+
+.cta-button:hover {
+    background-color: #052afd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(61, 3, 3);
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 9 px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 85%;
+    padding: 8px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+    border-color: #ff6347; 
+    outline: none;
+}
+
+.submit-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
